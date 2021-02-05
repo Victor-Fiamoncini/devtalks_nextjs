@@ -1,17 +1,21 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
+  "name": "devtalks_nextjs",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+		"server": "json-server --watch --port 3333 db.json"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.4",
     "axios": "^0.21.1",
     "next": "^10.0.0",
+    "postcss": "^8.2.4",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "^7.19.0",
@@ -19,6 +23,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "json-server": "^0.16.3",
     "prettier": "^2.2.1"
   }
 }

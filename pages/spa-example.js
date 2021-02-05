@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 
-import { jsonPlaceholderAPI } from '../services/apiClients'
+import { localAPI } from '../services/apiClients'
 
 export default function SPAExample() {
 	const [posts, setPosts] = useState([])
 
 	useEffect(() => {
 		async function fetchPosts() {
-			const posts = await jsonPlaceholderAPI.get('/posts')
+			const posts = await localAPI.get('/posts')
 
 			setPosts(posts.data)
+
+			console.log('Requisição pelo lado do cliente...')
 		}
 
 		fetchPosts()
@@ -19,18 +21,17 @@ export default function SPAExample() {
 	return (
 		<div>
 			<Head>
-				<title>Devtalks NextJS</title>
+				<title>SPA Example</title>
 			</Head>
 			<main>
-				<h1>Devtalks NextJS</h1>
 				{!!posts.length && (
-					<ul>
+					<section>
 						{posts.map(post => (
-							<li key={post.id}>
-								<h4>{post.title}</h4>
-							</li>
+							<div key={post.id} className="mb-2">
+								<p>{post.title}</p>
+							</div>
 						))}
-					</ul>
+					</section>
 				)}
 			</main>
 		</div>
