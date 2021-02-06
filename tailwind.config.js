@@ -31,4 +31,8 @@ module.exports = {
 			translate: ['active', 'hover', 'group-hover'],
 		},
 	},
+	purge: {
+		enabled: process.env.NODE_ENV === 'production',
+		content: ['components/**/*.js', 'pages/**/*.js'],
+	},
 }

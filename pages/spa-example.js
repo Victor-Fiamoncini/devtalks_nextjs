@@ -3,7 +3,12 @@ import Head from 'next/head'
 
 import { localAPI } from '../services/apiClients'
 
-export default function SPAExample() {
+import PostsList from '../components/PostsList'
+
+/**
+ * Single page application example
+ */
+const SPAExample = () => {
 	const [posts, setPosts] = useState([])
 
 	useEffect(() => {
@@ -12,7 +17,7 @@ export default function SPAExample() {
 
 			setPosts(posts.data)
 
-			console.log('Requisição pelo lado do cliente...')
+			console.log('SPA - Requisição pelo lado do cliente...')
 		}
 
 		fetchPosts()
@@ -23,17 +28,9 @@ export default function SPAExample() {
 			<Head>
 				<title>SPA Example</title>
 			</Head>
-			<main>
-				{!!posts.length && (
-					<section>
-						{posts.map(post => (
-							<div key={post.id} className="mb-2">
-								<p>{post.title}</p>
-							</div>
-						))}
-					</section>
-				)}
-			</main>
+			<PostsList posts={posts} />
 		</div>
 	)
 }
+
+export default SPAExample
