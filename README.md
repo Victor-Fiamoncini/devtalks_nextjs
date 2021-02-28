@@ -8,12 +8,21 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 
 ## Modelos de Frontend
 
-- Servidores Linux - HTML estático ex: <http://sitedafaculdade.edu/~victor/home.html>
-- Arquivos binários (C, C++) - CGI
+- Servidores Linux - HTML estático ex: <http://sitedafaculdade.edu/~victor/home.html> **SSR**
+- Arquivos binários CGIs (C, C++) - **SSR**
 - Python, PHP, Ruby, Perl... - **SSR**
 - SproutCore, Ember, Polymer... - **SPA**
 - React, Angular, Vue... - **SPA**
 - NextJS, Gatsby, NuxtJS... - **SSR**
+- ...
+
+## Client Side Rendering
+
+![alt](./.github/csr.png)
+
+## Server Side Rendering
+
+![alt](./.github/ssr.png)
 
 ## Principais Funcionalidades
 
@@ -21,6 +30,10 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 - Hot Code Reloading
 - Roteamento Automático
 - Code Splitting Automático
+
+## Server Site Generation no NextJS
+
+![alt](./.github/ssg.png)
 
 ----------
 Released in 2021
