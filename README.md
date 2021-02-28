@@ -35,6 +35,11 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 
 ![alt](./.github/ssg.png)
 
+## Referências
+
+[https://medium.com/swlh/why-nextjs-and-how-to-start-6bf5c28f5a87](https://medium.com/swlh/why-nextjs-and-how-to-start-6bf5c28f5a87)
+[https://arunoda.me/blog/what-is-nextjs-issg](https://arunoda.me/blog/what-is-nextjs-issg)
+
 ----------
 Released in 2021
 
