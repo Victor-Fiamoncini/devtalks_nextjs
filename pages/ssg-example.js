@@ -21,14 +21,14 @@ export const getStaticProps = async () => {
 	const posts = await localAPI.get('/posts')
 
 	console.log(
-		'SSG - Pré geração da página pelo lado do servidor a cada 20 segundos...'
+		'SSG - Pré geração da página pelo lado do servidor a cada 30 segundos...'
 	)
 
 	return {
 		props: {
 			posts: posts.data,
 		},
-		revalidate: 20,
+		revalidate: 30,
 	}
 }
 
