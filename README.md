@@ -29,7 +29,7 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 - Roteamento Automático
 - Code Splitting Automático
 
-## Server Site Generation no NextJS
+## Static Site Generation no NextJS
 
 ![alt](./.github/ssg.png)
 
