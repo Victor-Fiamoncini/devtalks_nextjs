@@ -9,8 +9,8 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 - Servidores Linux - HTML estático ex: <http://sitedafaculdade.edu/~victor/home.html> **SSR**
 - Arquivos binários CGIs (C, C++) - **SSR**
 - Python, PHP, Ruby, Perl... - **SSR**
-- SproutCore, Ember, Polymer... - **SPA**
-- React, Angular, Vue... - **SPA**
+- SproutCore, Ember, Polymer... - **CSR**
+- React, Angular, Vue... - **CSR**
 - NextJS, Gatsby, NuxtJS... - **SSR**
 - ...
 
