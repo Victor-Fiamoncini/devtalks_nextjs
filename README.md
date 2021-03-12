@@ -4,6 +4,13 @@
 
 Next.js é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, o Nextjs busca reunir diversas funcionalidades como renderização hibrida e estática de conteúdo, suporte a TypeScript, pre-fetching, sistema de rotas, pacotes de funcionalidades e diversos plugins e exemplos para acelerar seu desenvolvimento fornecendo uma estrutura completa para você iniciar seu projeto.
 
+## Principais Funcionalidades
+
+- Hibrido SSR e SSG
+- Hot Code Reloading
+- Roteamento Automático
+- Code Splitting Automático
+
 ## Modelos de Frontend
 
 - Servidores Linux - HTML estático ex: <http://sitedafaculdade.edu/~victor/home.html> **SSR**
@@ -21,13 +28,6 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 ## Server Side Rendering
 
 ![alt](./.github/ssr.png)
-
-## Principais Funcionalidades
-
-- Hibrido SSR e SSG
-- Hot Code Reloading
-- Roteamento Automático
-- Code Splitting Automático
 
 ## Static Site Generation no NextJS
 
