@@ -11,6 +11,14 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 - Roteamento Automático
 - Code Splitting Automático
 
+## Client Side Rendering
+
+![alt](./.github/csr.png)
+
+## Server Side Rendering
+
+![alt](./.github/ssr.png)
+
 ## Modelos de Frontend
 
 - Servidores Linux - HTML estático ex: <http://sitedafaculdade.edu/~victor/home.html> **SSR**
@@ -20,14 +28,6 @@ Next.js é um framework React com foco em produção e eficiência criado e mant
 - React, Angular, Vue... - **CSR**
 - NextJS, Gatsby, NuxtJS... - **SSR**
 - ...
-
-## Client Side Rendering
-
-![alt](./.github/csr.png)
-
-## Server Side Rendering
-
-![alt](./.github/ssr.png)
 
 ## Static Site Generation no NextJS
 
